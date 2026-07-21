@@ -10,3 +10,19 @@ __pycache__/
 
 # Environment variables
 .env
+
+# Data folders
+datasets/
+examples/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Data files
+*.csv
+*.txt
+*.pdf
+*.xlsx
+*.xls
