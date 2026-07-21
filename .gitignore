@@ -36,3 +36,4 @@ Thumbs.db
 # ===== IDE (VS Code settings pribadi) =====
 .vscode/
 .jupyter/
+.png
