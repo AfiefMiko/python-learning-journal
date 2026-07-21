@@ -1,28 +1,37 @@
-# Virtual Environment
-venv/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Jupyter checkpoint
-.ipynb_checkpoints/
-
-# Environment variables
-.env
-
-# Data folders
-datasets/
-examples/
-
-# Database files
-*.sqlite
-*.sqlite3
-*.db
-
-# Data files
+# ===== Data Files (Jangan upload dataset ke GitHub) =====
 *.csv
 *.txt
-*.pdf
 *.xlsx
 *.xls
+*.json
+*.h5
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# Folder dataset bawaan buku McKinney
+examples/
+datasets/
+
+# ===== Python / Jupyter Notebook =====
+# Abaikan cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Abaikan checkpoint Jupyter (folder tersembunyi yang bikin repo kotor)
+.ipynb_checkpoints/
+
+# ===== Environment & OS =====
+# Abaikan environment virtual (terlalu berat untuk GitHub)
+venv/
+env/
+.venv
+
+# File sistem operasi (Windows/Mac)
+.DS_Store
+Thumbs.db
+
+# ===== IDE (VS Code settings pribadi) =====
+.vscode/
