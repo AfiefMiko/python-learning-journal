@@ -9,6 +9,11 @@
 *.zip
 *.tar
 *.gz
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
 
 # Folder dataset bawaan buku McKinney
 datasets/
